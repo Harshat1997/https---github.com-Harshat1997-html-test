@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head{
+    width: 100vw;
+    height: 650px;
+    background-color: light rgb(232, 212, 216);
+}
+
+@media  screen and (max-width:1250px) {
+     .head{
+       grid-template-columns: 1fr;
+     }
+}
+
+nav{
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+nav h3{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    left: 600px;
+}
+
+.navbar h6{
+   padding:10px ;
+   position: relative;
+   top: -20px; ;
+}
+
+.bigtext{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+
+
+.mid_section1{
+    width: 100vw;
+    height: 200px;
+    
+}
+
+.firstcontainer {
+    flex-wrap: wrap;
+    }
+
+
+.mid_section2{
+    width: 100vw;
+    height: 400px;
+}
+
+.image_container{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.image_container img{
+    height: 170px;
+    width: 150px;
+    margin: 0 20px;
+
+}
+
+ .mid_section3{
+    height: 500px;
+    width: 100vw;
+
+}
+
+.mid_section3 img{
+    height: 400px;
+    position: absolute;
+    right: 80px;
+}
+
+.foot{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(243, 240, 240);
+}
+
+.foot h3{
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    top: 50px;
+}
+
+.nav2{
+    width: 100vw; 
+    height: 20px;
+    display: flex;
+    margin-left: 600px;
+}
+
+.nav2 h5{
+    padding: 0 20px;
+    color: gray;
+}
+
+.image2_container{
+    position: relative;
+    top: 250px;
+    left: 250px;
+}
+
+.image2_container img{
+    height: 50px;
+    width: 50px;
+    margin: 0 30px;
+}
